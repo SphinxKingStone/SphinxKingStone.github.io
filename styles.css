@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#stopwatches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.stopwatch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stopwatch input[type="text"] {
+    margin-right: 10px;
+}
+
+.stopwatch button {
+    margin-left: 5px;
+}
